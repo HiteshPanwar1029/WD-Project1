@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Shoes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS Reset */
+        body {
+            margin: 0%;
+            padding: 0%;
+            background: url(img/bg.jpg);
+            color: white;
+        }
+
+        .left {
+            border: 3px solid purple;
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        .mid {
+            border: 3px solid red;
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .right {
+            border: 3px solid gray;
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .navbar{
+            
+            display: inline-block;
+        }
+        .navbar li{
+            
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for log -->
+        <div class="left">
+            i am left
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        
+        </div>
+        <!-- right for search option -->
+        <div class="right">
+            i am right
+        </div>
+    </header>
+</body>
+
+</html>
